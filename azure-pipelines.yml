@@ -4,7 +4,8 @@ trigger:
 variables:
   buildConfiguration: 'Release'
   webRepository: 'web'
-  tag: '$(Build.BuildId)
+  tag: '$(Build.BuildId)'
+
 stages:
 - stage: 'Build'
   displayName: 'Build and Push'
